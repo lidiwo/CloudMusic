@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 覆盖系统默认设置 修改图标大小 -->
+    <dimen name="design_navigation_icon_size" tools:override="true">20dp</dimen>
+
+    <!-- 覆盖系统默认设置 修改图标与文字之间的间距 -->
+    <dimen name="design_navigation_icon_padding" tools:override="true">5dp</dimen>
+
+    <!-- 覆盖系统默认设置 修改距离底部的距离 -->
+    <dimen name="design_navigation_padding_bottom" tools:override="true">48dp</dimen>
+
+    <!-- 覆盖系统默认设置 修改分割线的上下间距 -->
+    <dimen name="design_navigation_separator_vertical_padding" tools:override="true">0dp</dimen>
+</resources>
