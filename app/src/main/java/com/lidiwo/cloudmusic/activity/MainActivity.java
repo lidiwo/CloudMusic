@@ -119,7 +119,6 @@ public class MainActivity extends BaseActivity {
         mFootViewHolder.ll_setting.setOnClickListener(this);
         mFootViewHolder.ll_finish.setOnClickListener(this);
 
-
         vp_content.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -136,8 +135,6 @@ public class MainActivity extends BaseActivity {
 
             }
         });
-
-
     }
 
     private static class HeadViewHolder {
@@ -169,8 +166,7 @@ public class MainActivity extends BaseActivity {
             //添加底部布局
             View bottomView = View.inflate(this, R.layout.view_navigation_bottom, null);
             mFootViewHolder = new FootViewHolder(bottomView);
-
-
+            
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
                     LinearLayout.LayoutParams.MATCH_PARENT,
                     LinearLayout.LayoutParams.WRAP_CONTENT);

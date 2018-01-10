@@ -24,6 +24,9 @@ dependencies {
     compile 'com.android.support:support-v4:26.1.0'
     compile 'com.android.support:design:26.1.0'
     compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile "com.android.support:support-emoji:26.1.0"
+//    compile "com.android.support:support-emoji-appcompat:26.1.0"
+    compile "com.android.support:support-emoji-bundled:26.1.0"
 
     //沉浸式
     compile 'com.gyf.barlibrary:barlibrary:2.3.0'

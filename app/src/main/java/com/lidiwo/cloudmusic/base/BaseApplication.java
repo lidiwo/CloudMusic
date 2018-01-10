@@ -2,6 +2,8 @@ package com.lidiwo.cloudmusic.base;
 
 import android.app.Application;
 import android.content.Context;
+import android.support.text.emoji.EmojiCompat;
+import android.support.text.emoji.bundled.BundledEmojiCompatConfig;
 
 /**
  * *****************************************************
@@ -18,6 +20,8 @@ public class BaseApplication extends Application {
     public void onCreate() {
         super.onCreate();
         mContext=getApplicationContext();
+        EmojiCompat.Config config =new BundledEmojiCompatConfig(this);
+        EmojiCompat.init(config);
     }
 
     public  static Context getContext(){
