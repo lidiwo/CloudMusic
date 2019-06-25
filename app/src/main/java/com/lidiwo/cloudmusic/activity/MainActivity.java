@@ -310,16 +310,19 @@ public class MainActivity extends BaseActivity {
             case R.id.iv_title_music:
                 if (vp_content.getCurrentItem() != 0) {
                     setTitleIconStatus(0);
+                    vp_content.setCurrentItem(0);
                 }
                 break;
             case R.id.iv_title_discover:
                 if (vp_content.getCurrentItem() != 1) {
                     setTitleIconStatus(1);
+                    vp_content.setCurrentItem(1);
                 }
                 break;
             case R.id.iv_title_friends:
                 if (vp_content.getCurrentItem() != 2) {
                     setTitleIconStatus(2);
+                    vp_content.setCurrentItem(2);
                 }
                 break;
         }
