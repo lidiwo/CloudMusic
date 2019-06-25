@@ -84,6 +84,19 @@ public class MainActivity extends BaseActivity {
     protected void initView() {
         setSupportToolbar(toolbar);
 
+        Menu menu=  nv_menu.getMenu();
+
+        menu.add(1,1,1,"我的消息").setIcon(R.drawable.nv_message);
+        menu.add(1,2,1,"会员中心").setIcon(R.drawable.nv_member);
+        menu.add(1,3,1,"商城").setIcon(R.drawable.nv_shop);
+        menu.add(1,4,1,"在线听歌免流量").setIcon(R.drawable.nv_free_music);
+
+
+
+
+
+
+
         //隐藏滚动条,设置底部
         disableNavigationViewScrollbars(nv_menu);
 
@@ -231,6 +244,7 @@ public class MainActivity extends BaseActivity {
                     public void accept(Long aLong) throws Exception {
                         switch (id) {
                             case R.id.nav_message:
+                            case 1:
                                 ToastUtils.showToast("我的消息");
                                 break;
                             case R.id.nav_member:
