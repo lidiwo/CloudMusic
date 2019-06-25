@@ -15,6 +15,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -167,11 +168,11 @@ public class MainActivity extends BaseActivity {
             View bottomView = View.inflate(this, R.layout.view_navigation_bottom, null);
             mFootViewHolder = new FootViewHolder(bottomView);
             
-            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
-                    LinearLayout.LayoutParams.MATCH_PARENT,
-                    LinearLayout.LayoutParams.WRAP_CONTENT);
+            FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(
+                    FrameLayout.LayoutParams.MATCH_PARENT,
+                    FrameLayout.LayoutParams.WRAP_CONTENT);
 
-            params.topMargin = getWindowManager().getDefaultDisplay().getHeight() - MyUtils.dip2px(this, 45);
+            params.gravity= Gravity.BOTTOM;
             navigationView.addView(bottomView, params);
             NavigationMenuView navigationMenuView = (NavigationMenuView) navigationView.getChildAt(0);
             if (navigationMenuView != null) {

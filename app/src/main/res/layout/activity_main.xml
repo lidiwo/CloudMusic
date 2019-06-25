@@ -14,6 +14,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:itemTextColor="@color/text_color"
+        app:insetForeground="@android:color/transparent"
         app:itemIconTint="@color/gray_color2"
         app:itemBackground="@drawable/custom_item_bg_selector"
         app:menu="@menu/navigation_menu"
