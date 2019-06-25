@@ -19,7 +19,7 @@
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_weight="4"
-            android:background="@drawable/custom_item_bg_selector"
+            android:background="?attr/selectableItemBackground"
             android:gravity="center">
 
             <ImageView
@@ -40,11 +40,11 @@
         </LinearLayout>
 
         <LinearLayout
+            android:background="?attr/selectableItemBackgroundBorderless"
             android:id="@+id/ll_setting"
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_weight="3"
-            android:background="@drawable/custom_item_bg_selector"
             android:gravity="center">
 
             <ImageView
@@ -68,7 +68,7 @@
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_weight="3"
-            android:background="@drawable/custom_item_bg_selector"
+            android:background="?attr/selectableItemBackgroundBorderless"
             android:gravity="center">
 
             <ImageView
