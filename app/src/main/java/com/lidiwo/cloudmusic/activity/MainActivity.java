@@ -180,8 +180,8 @@ public class MainActivity extends BaseActivity {
             //添加底部布局
             View bottomView = View.inflate(this, R.layout.view_navigation_bottom, null);
             mFootViewHolder = new FootViewHolder(bottomView);
-            
-            FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(
+
+            NavigationView.LayoutParams params = new NavigationView.LayoutParams(
                     FrameLayout.LayoutParams.MATCH_PARENT,
                     FrameLayout.LayoutParams.WRAP_CONTENT);
 
