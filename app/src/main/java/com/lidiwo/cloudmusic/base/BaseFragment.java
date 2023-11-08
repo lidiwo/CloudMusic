@@ -1,7 +1,5 @@
 package com.lidiwo.cloudmusic.base;
 
-import android.support.v4.app.Fragment;
-
 /**
  * *****************************************************
  *
@@ -10,5 +8,5 @@ import android.support.v4.app.Fragment;
  * @Company：智能程序员
  * @Description： *****************************************************
  */
-public class BaseFragment extends Fragment {
-}
+//public class BaseFragment extends Fragment {
+//}

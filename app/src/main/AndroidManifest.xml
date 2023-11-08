@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lidiwo.cloudmusic">
+  >
 
     <application
         android:name=".base.BaseApplication"
@@ -12,7 +12,8 @@
         <activity
             android:name=".activity.SplashActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppLauncher">
+            android:theme="@style/Theme.AppLauncher"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +26,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppAdv" />
 
-        <activity android:name=".activity.MainActivity" />
+<!--        <activity android:name=".activity.MainActivity" />-->
     </application>
 
 </manifest>

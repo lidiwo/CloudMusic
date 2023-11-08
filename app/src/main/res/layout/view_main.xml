@@ -5,66 +5,66 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/main_color"
-        app:contentInsetStart="0dp"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+<!--    <android.support.v7.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        android:background="@color/main_color"-->
+<!--        app:contentInsetStart="0dp"-->
+<!--        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">-->
 
-        <FrameLayout
-            android:id="@+id/ll_title_menu"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp">
+<!--        <FrameLayout-->
+<!--            android:id="@+id/ll_title_menu"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="?attr/selectableItemBackgroundBorderless"-->
+<!--            android:paddingLeft="15dp"-->
+<!--            android:paddingRight="15dp">-->
 
-            <ImageView
-                android:layout_width="23dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:src="@drawable/nv_menu" />
-        </FrameLayout>
-
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            app:theme="@style/AppTheme">
-
-            <ImageView
-                android:id="@+id/iv_title_music"
-                android:layout_width="55dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:src="@drawable/actionbar_music_selector" />
-
-            <ImageView
-                android:id="@+id/iv_title_discover"
-                android:layout_width="55dp"
-                android:layout_height="match_parent"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:src="@drawable/actionbar_discover_selector" />
-
-            <ImageView
-                android:id="@+id/iv_title_friends"
-                android:layout_width="55dp"
-                android:layout_height="match_parent"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:src="@drawable/actionbar_friends_selector" />
-        </LinearLayout>
-
-    </android.support.v7.widget.Toolbar>
+<!--            <ImageView-->
+<!--                android:layout_width="23dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:src="@drawable/nv_menu" />-->
+<!--        </FrameLayout>-->
 
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/vp_content"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:background="?attr/selectableItemBackgroundBorderless"-->
+<!--            app:theme="@style/AppTheme">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_title_music"-->
+<!--                android:layout_width="55dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="?attr/selectableItemBackgroundBorderless"-->
+<!--                android:src="@drawable/actionbar_music_selector" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_title_discover"-->
+<!--                android:layout_width="55dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="?attr/selectableItemBackgroundBorderless"-->
+<!--                android:src="@drawable/actionbar_discover_selector" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_title_friends"-->
+<!--                android:layout_width="55dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="?attr/selectableItemBackgroundBorderless"-->
+<!--                android:src="@drawable/actionbar_friends_selector" />-->
+<!--        </LinearLayout>-->
+
+<!--    </android.support.v7.widget.Toolbar>-->
+
+
+<!--    <android.support.v4.view.ViewPager-->
+<!--        android:id="@+id/vp_content"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
 
 </LinearLayout>
