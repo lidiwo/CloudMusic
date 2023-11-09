@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:src="@drawable/night_mode" />
+                android:src="@mipmap/night_mode" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -51,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:src="@drawable/nv_setting" />
+                android:src="@mipmap/nv_setting" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -75,7 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:src="@drawable/retreat_from" />
+                android:src="@mipmap/retreat_from" />
 
             <TextView
                 android:layout_width="wrap_content"

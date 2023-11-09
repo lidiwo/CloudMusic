@@ -1,10 +1,8 @@
 package com.lidiwo.cloudmusic.activity
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.lidiwo.cloudmusic.databinding.ActivityAdvertisingBinding
-
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.Disposable

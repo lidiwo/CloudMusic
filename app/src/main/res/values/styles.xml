@@ -10,7 +10,7 @@
 
     <!--启动页-->
     <style name="Theme.AppLauncher" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:background">@drawable/p_login_bg</item>
+        <item name="android:background">@mipmap/p_login_bg</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
         <item name="windowActionBar">false</item>

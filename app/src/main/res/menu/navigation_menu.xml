@@ -5,19 +5,19 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_message"
-            android:icon="@drawable/nv_message"
+            android:icon="@mipmap/nv_message"
             android:title="我的消息" />
         <item
             android:id="@+id/nav_member"
-            android:icon="@drawable/nv_member"
+            android:icon="@mipmap/nv_member"
             android:title="会员中心" />
         <item
             android:id="@+id/nav_shop"
-            android:icon="@drawable/nv_shop"
+            android:icon="@mipmap/nv_shop"
             android:title="商城" />
         <item
             android:id="@+id/nav_free_music"
-            android:icon="@drawable/nv_free_music"
+            android:icon="@mipmap/nv_free_music"
             android:title="在线听歌免流量" />
     </group>
     <group
@@ -25,11 +25,11 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_friends"
-            android:icon="@drawable/nv_friends"
+            android:icon="@mipmap/nv_friends"
             android:title="我的好友" />
         <item
             android:id="@+id/nav_location"
-            android:icon="@drawable/nv_location"
+            android:icon="@mipmap/nv_location"
             android:title="附近的人" />
     </group>
     <group
@@ -37,27 +37,27 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_skin"
-            android:icon="@drawable/nv_skin"
+            android:icon="@mipmap/nv_skin"
             android:title="个性换肤" />
         <item
             android:id="@+id/nav_discern_music"
-            android:icon="@drawable/nv_discern_music"
+            android:icon="@mipmap/nv_discern_music"
             android:title="听歌识曲" />
         <item
             android:id="@+id/nav_timing_stop"
-            android:icon="@drawable/nv_timing_stop"
+            android:icon="@mipmap/nv_timing_stop"
             android:title="定时停止播放" />
         <item
             android:id="@+id/nav_scan"
-            android:icon="@drawable/nv_scan"
+            android:icon="@mipmap/nv_scan"
             android:title="扫一扫" />
         <item
             android:id="@+id/nav_music_alarm"
-            android:icon="@drawable/nv_music_alarm"
+            android:icon="@mipmap/nv_music_alarm"
             android:title="音乐闹铃" />
         <item
             android:id="@+id/nav_driving_pattern"
-            android:icon="@drawable/nv_driving_pattern"
+            android:icon="@mipmap/nv_driving_pattern"
             android:title="驾驶模式" />
     </group>
 
