@@ -1,7 +1,10 @@
 package com.lidiwo.cloudmusic.activity
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import com.gyf.immersionbar.ImmersionBar
+import com.lidiwo.cloudmusic.R
+import com.lidiwo.cloudmusic.base.BaseActivity
 import com.lidiwo.cloudmusic.databinding.ActivityAdvertisingBinding
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
@@ -9,7 +12,7 @@ import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import java.util.concurrent.TimeUnit
 
-class AdvertisingActivity : AppCompatActivity() {
+class AdvertisingActivity : BaseActivity() {
     private val mBinding by lazy { ActivityAdvertisingBinding.inflate(layoutInflater) }
 
     private var disposable: Disposable? = null
@@ -21,6 +24,9 @@ class AdvertisingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(mBinding.root)
+        ImmersionBar.with(this)
+            .transparentBar()
+            .init()
         mBinding.apply {
             tvSkip.setOnClickListener {
                 toMainActivity()
@@ -52,9 +58,9 @@ class AdvertisingActivity : AppCompatActivity() {
     }
 
     private fun toMainActivity() {
-//        startActivity(Intent(this@AdvertisingActivity, MainActivity::class.java))
-//        overridePendingTransition(R.anim.screen_zoom_in, R.anim.screen_zoom_out)
-//        finish()
+        startActivity(Intent(this@AdvertisingActivity, MainActivity::class.java))
+        overridePendingTransition(R.anim.screen_zoom_in, R.anim.screen_zoom_out)
+        finish()
     }
 
 }

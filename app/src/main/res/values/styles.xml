@@ -1,29 +1,15 @@
 <resources>
 
-    <!-- Base application theme. -->
+
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/main_color</item>
-        <item name="colorPrimaryDark">@color/main_color</item>
-        <item name="colorAccent">@color/main_color</item>
+
     </style>
 
-    <!--启动页-->
-    <style name="Theme.AppLauncher" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:background">@mipmap/p_login_bg</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+
+    <style name="AppSplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/shape_splash_bg</item>
     </style>
 
-    <!--广告页-->
-    <style name="Theme.AppAdv" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
 
     <style name="NavigationDrawerStyle">
         <!--<item name="android:textSize">16sp</item>-->
